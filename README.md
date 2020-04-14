@@ -2,11 +2,11 @@ With this template, you can create virtual endpoints that simulates the behavior
 
 ## To install the packages
 
-Run the script ```npn install``` to nstall all the packages mentioned in package.json > dependencies
+Run the script ```npn install``` to install all the packages mentioned in package.json > dependencies
 
 ## Packages used
-1) ejs - Mountebank supports EJS templates to upload the imposters (response stubs) through commandline.
-2) Mountebank - To handle mountebank events
+1) ejs - [Mountebank](http://www.mbtest.org/) supports EJS templates to upload the imposters (response stubs) through commandline.
+2) Mountebank - To create virtual api endpoints with its responses. [Mountebank](http://www.mbtest.org/) has many features to predicate the API path, handle error scenarios, creating proxy and much more. 
 
 ## Scripts to run mountebank
 npm run mock , In package.json ``"mock": "mb --configfile mountebank/imposters.ejs --loglevel debug"``
