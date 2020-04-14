@@ -22,4 +22,4 @@ The above scripts 3 important parts,
 
 ## How to test API
 
-API tools like Postman, SOAPUI etc. can be used to test the API's by giving appropriate method, port and protocol mentioned in imposters.
+API tools like [Postman](https://www.postman.com/), [SOAPUI](https://www.soapui.org/) etc. can be used to test the API's by giving appropriate method, port and protocol mentioned in imposters.
