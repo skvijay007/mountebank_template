@@ -1,0 +1,17 @@
+{
+  "name": "mountebank_boilerplate",
+  "version": "1.0.0",
+  "description": "mountebank boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "mock": "mb --configfile mountebank/imposters.ejs --loglevel debug"
+  },
+  "keywords": [],
+  "author": "vijendra",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "mountebank": "^2.2.0"
+  },
+  "devDependencies": {}
+}

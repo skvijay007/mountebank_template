@@ -1,0 +1,22 @@
+{
+    "predicates": [
+        {
+            "equals": {
+                "method": "GET",
+                "path": "/xmlresp"
+            }
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {"Content-Type": "application/xml"},
+                "body": "<%- stringify('./templates/originXMLResponse.xml') %>"
+            },
+            "_behaviors": {
+                "wait": 500
+            }
+        }
+    ]
+}

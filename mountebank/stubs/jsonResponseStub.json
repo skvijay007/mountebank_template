@@ -1,0 +1,24 @@
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/jsonresp"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {"Content-Type": "application/json"},
+        "body": {
+          "sample": "Successful response"
+        }
+      },
+      "_behaviors": {
+        "wait": 500
+      }
+    }
+  ]
+}
